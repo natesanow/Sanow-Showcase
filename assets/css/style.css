@@ -99,6 +99,19 @@ section {
     padding-right: 40px;
     min-width: 20%;
     max-width: 20%;
+    padding-top: 20px;
 }
 
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+}
 
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    width: 90%;
+    color: var(--secondary);
+}
