@@ -132,7 +132,7 @@ section {
 }
 
 .main {
-    background-image: url("../images/Screenshot\ 2023-12-19\ 110610.png");
+    background-image: url("../images/Books.jpg");
     background-size: cover;
     background-position: center;
     border: 3px solid var(--pop);
@@ -144,7 +144,7 @@ section {
 }
 
 .second {
-    background-image: url("../images/Horiseon-Screenshot.jpg");
+    background-image: url("../images/Coding.jpg");
     background-size: cover;
     background-position: center;
     border: 3px solid var(--pop);
@@ -153,4 +153,10 @@ section {
     align-items: center;
     justify-content: flex-start;
     cursor: pointer;
+}
+
+#caption {
+    padding: 10px;
+    background-color: var(--secondary);
+    color: var(--primary);
 }
