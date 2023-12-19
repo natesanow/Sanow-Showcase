@@ -102,6 +102,10 @@ section {
     padding-top: 20px;
 }
 
+.heading h1 {
+    font-size: 30px;
+}
+
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -114,4 +118,39 @@ section {
     padding: 0 30px;
     width: 90%;
     color: var(--secondary);
+}
+
+
+.grid {
+    min-height: 700px;
+    gap: 0.5em;
+    margin-bottom: 20px;
+    display:grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 60% 40%;
+    justify-content: center;
+}
+
+.main {
+    background-image: url("../images/Screenshot\ 2023-12-19\ 110610.png");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid var(--pop);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.second {
+    background-image: url("../images/Horiseon-Screenshot.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid var(--pop);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
 }
