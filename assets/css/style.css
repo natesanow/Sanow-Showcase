@@ -71,7 +71,7 @@ header nav ul li a:hover {
    }
 
 section {
-    padding: 60px;
+    padding: 30px;
 }
 /* hero banner */
 .hero {
@@ -185,11 +185,12 @@ section {
     }
   
     .header-img {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     section {
       padding-right: 0;
+      flex-direction: column;
     }
   
     aside {
