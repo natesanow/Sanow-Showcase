@@ -184,6 +184,10 @@ section {
       flex-direction: column;
     }
   
+    .header-img {
+        flex-direction: column;
+    }
+
     section {
       padding-right: 0;
     }
