@@ -20,8 +20,6 @@ Live URL - https://natesanow.github.io/Sanow-Showcase/
 
 ### Screenshot
 
-```md
-![Screenshot]()
-```
+![Screenshot](assets/images/Portfolio-Screenshot.png)
 
 
